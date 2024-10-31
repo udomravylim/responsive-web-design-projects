@@ -1,4 +1,5 @@
 This repository contains a series of HTML, CSS, and JavaScript projects aimed at building and strengthening web development skills.
+    
     **Build_a_balance_sheet**
     A project to create a basic balance sheet layout, reinforcing skills in data structuring and styling.
     **Build_a_cat**
