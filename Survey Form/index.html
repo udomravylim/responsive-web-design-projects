@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for making the time take this survey</p>
+    <form id="survey-form">
+        <fieldset>
+        <label id="name-label" for="name">Name:
+            <input type="text" id="name" name="name" placeholder="Enter your name" required /></label>
+        <label id="email-label" for="email">Email:
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required /></label>
+        <label id="number-label" for="number">Age (optional)
+            <input type="number" id="number" name="age" pattern="[0-9]" placeholder="Age" min="13" max="120" /></label>
+        </fieldset>
+        <fieldset>
+        <label for="dropdown">
+            Which option best describes your current role?
+            <select name="" id="dropdown" name="dropdown">
+                Select current role
+                <option name="" id="dropdown">Select current role</option>
+                <option name="1" id="dropdown">Student</option>
+                <option name="2" id="dropdown">Full Time Job</option>
+                <option name="3" id="dropdown">Full Time Learner</option>
+                <option name="4" id="dropdown">Prefer not to say</option>
+                <option name="5" id="dropdown">Other</option>
+            </select>
+        </label>
+        <label for="radio">
+            Would you recommend This to your Friend?
+            <input type="radio" value="1" name="recommend" id="radio"> Definitely
+            <input type="radio" value="2" name="recommend" id="radio"> Maybe
+            <input type="radio" value="3" name="recommend" id="radio"> Not sure
+        </label>
+        <label>
+            What do you like to do in your free time?
+            <input type="checkbox" value="1" name="habit"> Sleep
+            <input type="checkbox" value="2" name="habit"> Eat
+            <input type="checkbox" value="3" name="habit"> Watch Tv
+            <input type="checkbox" value="4" name="habit"> Read Book
+        </lable>
+        <label for="text">
+            Any comments or suggestions
+            <textarea name="textarea" id="text" rows="3" cols="50" placeholder="Enter your comment here..."></textarea>
+        </fieldset>
+        <input type="submit" id="submit" value="submit" />
+    </form>
+    
+</body>
+
+</html>
