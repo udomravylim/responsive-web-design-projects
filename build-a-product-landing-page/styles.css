@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width:300px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar {
+    position: fixed; /* Keeps the nav-bar fixed in place */
+    top: 0; /* Positions it at the top of the viewport */
+    width: 100%; /* Makes it full-width so it spans the entire viewport */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+  }
+@media screen and (min-width: 600px) {
+    #nav-bar {
+        display: block;
+    }
+}

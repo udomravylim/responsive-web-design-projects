@@ -1,0 +1,65 @@
+.Cartsection {
+  width: 300px;
+  background-color: #dddddd;
+  padding: 10px;
+  font-family: helvetica, arial, san-serif;
+}
+.Cartsection__Cartcontainer {
+  background-color: #fff;
+}
+.Cartsection__title {
+  display: flex;
+  justify-content: space-between;
+}
+.Cartsection__header {
+  color: gray;
+}
+.Cartsection__num {
+  color: #fff;
+  background: gray;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 0;
+}
+.Cartsection__productWrapper {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #bbb;
+}
+.Cartsection__product, .Cartsection__productPrice {
+  padding: 10px;
+}
+.Cartsection__productDescription {
+  margin: 0;
+  color: gray;
+}
+.Cartsection__productName {
+  margin: 0;
+}
+.Cartsection__productPrice {
+  color: gray;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.Cartsection__promoName, .Cartsection__promoDescription, .Cartsection__promoPrice {
+  color: green;
+}
+.Cartsection__promoWrapper {
+  padding-top: 20px;
+}
+
+input {
+  padding: 10px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 25px;
+  color: white;
+  background-color: gray;
+  border-radius: 10px;
+  box-shadow: 2px 3px 2px gray;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,73 @@
+.Cartsection {
+  width: 300px;
+  background-color: #dddddd;
+  padding: 10px;
+  font-family: helvetica, arial, san-serif;
+
+  &__Cartcontainer {
+    background-color: #fff;
+  }
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__header {
+    color: gray;
+  }
+  &__num {
+    color: #fff;
+    background: gray;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 0;
+  }
+
+  &__productWrapper {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #bbb;
+  }
+
+  &__product,
+  &__productPrice {
+    padding: 10px;
+  }
+
+  &__productDescription {
+    margin: 0;
+    color: gray;
+  }
+
+  &__productName {
+    margin: 0;
+  }
+  &__productPrice {
+    color: gray;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &__promoName,
+  &__promoDescription,
+  &__promoPrice {
+    color: green;
+  }
+
+  &__promoWrapper {
+    padding-top: 20px;
+  }
+}
+
+input {
+  padding: 10px;
+  font-weight: bold;
+}
+button {
+  padding: 10px 25px;
+  color: white;
+  background-color: gray;
+  border-radius: 10px;
+  box-shadow: 2px 3px 2px gray;
+}
